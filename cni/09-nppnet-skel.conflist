@@ -1,0 +1,12 @@
+
+{
+	"cniVersion": "0.3.1",
+	"name": "nppnet-skel",
+	"plugins": [
+	{
+		"type": "nppnet-skel",
+                "subnet": "10.244.1.0/24"
+		
+	}
+	]
+}

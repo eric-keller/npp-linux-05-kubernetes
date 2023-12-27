@@ -1,0 +1,15 @@
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+- role: control-plane
+  extraMounts:
+  - hostPath: ./tmp/cp/
+    containerPath: /npp-temp
+- role: worker
+  extraMounts:
+  - hostPath: ./tmp/w1/
+    containerPath: /npp-temp
+- role: worker
+  extraMounts:
+  - hostPath: ./tmp/w2/
+    containerPath: /npp-temp 

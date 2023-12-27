@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: forexec3
+spec:
+  containers:
+  - name: forexec3
+    image: busybox
+    command:
+      - /bin/sh
+    args: [-c, 'while true; do sleep 1000; done']
+  nodeSelector:
+    node: node2
