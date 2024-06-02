@@ -4,7 +4,7 @@ This set of demos and lab goes along with the coursera course: `Network Principl
 
 You are welcome to run this code and I try to make it as self explanatory as possible, but some of the explanation will be in the videos for the course.
 
-
+NOTE: Mac M1/M2 users should refer to the guidance [here](https://github.com/eric-keller/npp-linux-01-intro/blob/main/mac-arm/README.md)
 
 # Vagrantfile
 
