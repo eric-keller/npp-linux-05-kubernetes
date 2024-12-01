@@ -16,8 +16,8 @@ worker2_ip="172.18.0.3"
 
 ## kind's default cni picks one of 10.244.0.0/24, 10.244.1.0/24, or 10.244.2.0/24 for the pods on that node.
 ## To determine, run ip route on worker and worker2
-##   docker exec worker ip route
-##   docker exec worker2 ip route
+##   docker exec kind-worker ip route
+##   docker exec kind-worker2 ip route
 
 ## The missing one is what that node's pod network will be.
 ## if the output includes routes for 10.244.0.0/24 and 10.244.1.0/24, that set the respective node's value to 2
